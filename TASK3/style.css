@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+  background-color: #eeeeee;
+  margin: 30px 15px;
+  text-align: center;
+}
+.img_section {
+  background-color: white;
+  margin: 5px 15px;
+}
+h1 {
+  font-size: 40px;
+  padding: 10px;
+}
+h2 {
+  padding: 25px;
+}
+p {
+  padding: 15px;
+  font-size: 20px;
+}
+.Norman_Timeline {
+  padding: 20px;
+}
+ul {
+  align-content: center;
+  text-align: justify;
+}
+li {
+  padding: 10px;
+  width: 50%;
+  margin-left: 25%;
+  font-size: 18px;
+}
+blockquote {
+  text-align: justify;
+  padding: 10px;
+  width: 40%;
+  margin-left: 20%;
+}
+a {
+  color: #477ca7;
+}
