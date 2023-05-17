@@ -7,7 +7,9 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .container {
-  position: relative;
+  min-width: 50vw;
+  margin: 10px;
+  padding: 10px;
 }
 hr {
   margin-top: 15px;
@@ -97,7 +99,8 @@ p {
   width: 971px;
 }
 .img_section img {
-  height: 100vh;
+  width: 100%;
+  height: auto;
 }
 .firms_section_images {
   display: flex;
@@ -117,12 +120,71 @@ p {
 .img img {
   padding: 10px;
 }
-.section3{
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    align-items: flex-start;
-    justify-content: left;
-    height: 30vh;
-    
+.section2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 35px;
+  background-color: rgb(0, 0, 0);
+  height: 40vh;
+}
+
+.valutico_des{
+  width: 80vw;
+  gap: 35px;
+  display: flex;
+  padding: 25px;
+  font-size: 1.2rem;
+  color: white;
+}
+.secure{
+  width: 40vw;
+}
+span{
+  color: #d7d7d7;
+  font-size: 1.2rem;
+}
+#h3{
+font-size: 2.5rem;
+}
+.section3 {
+  display: flex;
+  flex-direction: row;
+  margin: 35px;
+  height: 50rem;
+}
+.valutico_des2{
+  width: 45vw;
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  font-size: 1.2rem;
+  color: rgb(16, 16, 16);
+}
+.section3 img{
+  /* margin: 50px; */
+  /* width: 80vw; */
+  height: 80vh;
+}
+.btn2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+#sec{
+  width: 40vw;
+  margin-left: -30px;
+  padding: px;
+
+}
+#span{
+  color: #111;
+}
+.secure2{
+  width: 30vw;
+  margin-left: 25px;
+  padding: 20px;
 }
